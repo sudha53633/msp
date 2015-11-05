@@ -1,0 +1,16 @@
+
+<field name="category" type="string" indexed="true" stored="true" multiValued="true"/>
+<field name="cp_source" type="string" indexed="true" stored="true" />
+<field name="action_tag" type="string" indexed="true" stored="true" />
+<field name="city" type="string" indexed="true" stored="true" multiValued="false"/>
+<field name="location" type="string" indexed="true" stored="true" multiValued="false"/>
+<field name="location_coord" type="location" indexed="true" stored="true" multiValued="false"/>
+<field name="country" type="string" indexed="true" stored="true" />
+<field name="emailids" type="string" indexed="true" stored="true" />
+<field name="msisdn" type="string" indexed="true" stored="true" />
+<field name="title" type="string" indexed="true" stored="true" />
+<field name="postdate" type="date" indexed="true" stored="true" />
+<field name="startdate" type="date" indexed="true" stored="true" />
+<field name="enddate" type="date" indexed="true" stored="true" />
+<field name="type" type="string" indexed="true" stored="true" />
+<field name="imageurl" type="string" indexed="true" stored="true" multiValued="true"/>
